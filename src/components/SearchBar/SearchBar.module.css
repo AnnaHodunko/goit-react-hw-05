@@ -1,0 +1,40 @@
+.form {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.input {
+  background-color: transparent;
+  border: 1px solid blue;
+  border-radius: 8px;
+  padding: 10px;
+  color: black;
+}
+.input:hover,
+.input:active,
+.input:focus {
+  border: 2px solid blue;
+}
+
+input::placeholder {
+  color: rgb(169, 169, 169);
+}
+.btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: medium;
+  background-color: transparent;
+  color: black;
+  border: 1px solid blue;
+  transition: all cubic-bezier(0.2);
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus {
+  border: 1px solid black;
+  color: blue;
+}

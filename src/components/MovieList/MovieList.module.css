@@ -1,0 +1,26 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 250px);
+  gap: 16px;
+  padding: 40px;
+  justify-content: center;
+}
+
+.cardWrapper {
+  border: 1px solid blue;
+  border-radius: 4px;
+  background-color: rgb(238 237 237 / 35%);
+  transition: transform 200ms ease-out;
+}
+.cardWrapper:hover {
+  transform: scale(1.03);
+}
+.movieName {
+  padding: 6px;
+  color: black;
+  text-align: center;
+}
+
+.movieImg {
+  width: 250px;
+}
